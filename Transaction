@@ -1,0 +1,9 @@
+Transaction
+Ensemble d'instruction SQL respectant les principes ACID
+
+A-C-I-D
+
+A - Atomicité 
+C - Cohérence (Consistance)
+I - Isolation 
+D - Durabilité
