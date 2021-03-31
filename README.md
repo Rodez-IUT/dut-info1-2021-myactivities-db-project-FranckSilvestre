@@ -1,10 +1,10 @@
 # DUT Info 1 > Programmation Bases de Données
 
-### NOM : DOE
-### Prénom : Jane
+### NOM : SILVESTRE
+### Prénom : Franck
 ### Groupe de TP/TD : 
 - [ ] 1
-- [x] 2
+- [X] 2
 - [ ] 3
 
 ### 0. Création et initialisation du projet "myactivities-db-project"
