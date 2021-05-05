@@ -79,13 +79,13 @@ Pour répondre aux questions de cette exercice créé le fichier "P2-5-reflexion
 
 Examinez la fonction "create_activity_with_owner" du premier exercice.
 
-2.1 Problèmes posés par cette fonction
+3.1 Problèmes posés par cette fonction
 
 Cette fonction posent différents problèmes telle qu'elle est écrite.
 Pouvez-vous identifiez et expliquez les problèmes qu'elle pose ?
 
 
-2.2 Propositions de solution
+3.2 Propositions de solution
 
 Que faudrait-il pouvoir faire dans cette fonction pour résoudre les problèmes soulevés précédemment ?
 
