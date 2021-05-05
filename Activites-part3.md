@@ -47,8 +47,8 @@ Les fichiers que l'on vous demande de créér dans le cadre des exercices sont �
 
 Afin de faciliter la création de nouveaux enregistrements, nous allons créer une séquence pour chacune des tables du schéma "gds". À l'aide du "Query tool" créez les séquences à l'aide des instructions suivantes :
 
-CREATE SEQUENCE gds.salle_seq;
-CREATE SEQUENCE gds.reservation_seq;
+    CREATE SEQUENCE gds.salle_seq;
+    CREATE SEQUENCE gds.reservation_seq;
 
 ### 2. Fonctions de création des salles et des réservations
 
