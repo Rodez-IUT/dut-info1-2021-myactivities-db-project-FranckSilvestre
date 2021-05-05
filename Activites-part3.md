@@ -20,28 +20,28 @@ Les fichiers que l'on vous demande de créér dans le cadre des exercices sont �
 
 1.3. Toujours à l'aide de "Query tool" créer dans le schéma "gds" les tables "salle" et "reservation" à l'aide des instructions suivantes :
 
-CREATE TABLE gds.salle
-(
-    id bigint NOT NULL,
-    nom character varying(250) NOT NULL UNIQUE,
-    nb_personnes_max integer NOT NULL,
-    date_creation timestamp without time zone NOT NULL,
-    date_modification timestamp without time zone NOT NULL,
-    CONSTRAINT salle_pkey PRIMARY KEY (id)
-);
+    CREATE TABLE gds.salle
+    (
+        id bigint NOT NULL,
+        nom character varying(250) NOT NULL UNIQUE,
+        nb_personnes_max integer NOT NULL,
+        date_creation timestamp without time zone NOT NULL,
+        date_modification timestamp without time zone NOT NULL,
+        CONSTRAINT salle_pkey PRIMARY KEY (id)
+    );
 
-CREATE TABLE gds.reservation
-(
-    id bigint NOT NULL,
-    date_debut timestamp without time zone NOT NULL,
-    date_fin timestamp without time zone NOT NULL,
-    date_creation timestamp without time zone NOT NULL,
-    date_modification timestamp without time zone NOT NULL,
-    salle_id bigint NOT NULL,
-    CONSTRAINT reservation_pkey PRIMARY KEY (id),
-    CONSTRAINT fk_reservation_salle FOREIGN KEY (salle_id)
-        REFERENCES gds.salle (id)
-)
+    CREATE TABLE gds.reservation
+    (
+        id bigint NOT NULL,
+        date_debut timestamp without time zone NOT NULL,
+        date_fin timestamp without time zone NOT NULL,
+        date_creation timestamp without time zone NOT NULL,
+        date_modification timestamp without time zone NOT NULL,
+        salle_id bigint NOT NULL,
+        CONSTRAINT reservation_pkey PRIMARY KEY (id),
+        CONSTRAINT fk_reservation_salle FOREIGN KEY (salle_id)
+            REFERENCES gds.salle (id)
+    )
 
 1.4. Création de séquences.
 
